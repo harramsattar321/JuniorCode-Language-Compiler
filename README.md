@@ -35,13 +35,21 @@ The Junior Code language is simple yet expressive, catering to beginners. Its ke
   }
   ```
 
-- **Loops**: Use the `repeat` keyword for iteration over a range.
+- **For Loops**: Use the `repeat` keyword for iteration over a range.
   ```juniorcode
   repeat i 1 to 10 {
       show i
   }
   ```
 
+ - **While Loops**: Perform condition-based iteration using the `loop` keyword.
+  ```juniorcode
+  var count = 5
+  loop count > 0 {
+      show count
+      count = count - 1
+  }
+  ```
 ## Components of the Compiler
 
 ### 1. Lexer (Tokenizer)
