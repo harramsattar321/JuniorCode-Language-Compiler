@@ -1,0 +1,52 @@
+# Test 1: Print table of 2
+
+var n = 4
+show "Printing table of " + n
+repeat i 1 to 10 {
+var m = i * n
+show n + "x" + i + "=" + m
+}
+END
+
+# Test 2: Sum of first 5 Numbers
+
+var sum = 0
+repeat i 1 to 5 {
+    var sum = sum + i
+}
+show "The sum of the first " + n + " numbers is: " + sum
+END
+
+# Test 3: Factorial of 6
+
+var number = 6
+var factorial = 1
+repeat i 1 to 6{
+    var factorial = factorial * i
+}
+show "The factorial of " + number + " is: " + factorial
+END
+
+# Test 4: Ask for permission
+
+var name = ask "What is your name?"
+var permission = ask "Do you have permission to enter the contest? (yes/no)"
+
+if permission == "yes" {
+    show "Hello, " + name + "! You are eligible to enter the contest."
+}
+else {
+    show "Hello, " + name + "! You need permission to enter the contest."
+}
+
+Test 5: Print Square
+var rows = 7
+repeat i 1 to 7{
+    var stars = ""
+    repeat j 1 to 7 {
+        var stars = stars + "*"
+    }
+    show stars
+}
+END
+
